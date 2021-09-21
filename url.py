@@ -1,0 +1,5 @@
+base_url = 'https://phoenix.ujing.online:443/api/v1'
+scancode_url = base_url + '/devices/scanWasherCode'
+deviceinfo_url = base_url + '/devices/{deviceId}'
+storeinfo_url = base_url + '/stores/{storeId}'
+ordercreate_url = base_url + '/orders/create'
